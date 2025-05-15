@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&display=swap');
+
+
+* {
+    font-family: 'Kumbh Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 25px;
+}
+
+body {
+    font-family: sans-serif;
+    color: #333;
+    background-color: #f0f0f0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1.3rem;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1.5rem;
+    padding: 0;
+}
+
+nav ul li a,
+.social-links a {
+    text-decoration: none;
+    color: #fa1e0a;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.social-links {
+    display: flex;
+    gap: 1rem;
+}
+
+.hero {
+    position: relative;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f0f0f0;
+    
+}
+
+.hero-image {
+    width: 30vw;
+    max-width: 400px;
+    aspect-ratio: 3 / 4;
+    position: relative;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+}
+
+.hero-text {
+    width: 120%;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+    color: white;
+    padding: 0px;
+}
+
+.hero-text h1 {
+    color: #fa1e0a;
+    font-size: 25px;
+}
+
+.hero-text h2 {
+    color:#fa1e0a;
+    font-size: 25px;
+}
+
+/* INTRO */
+.intro {
+    padding: 60px 20px;
+    background: #f7f7f7;
+    color: #f1cb65;;
+    background-color: #fa1e0a;
+    font-size: 25px;
+}
+
+.intro .container {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.intro h2 {
+    font-size: 36px;
+    margin-bottom: 3%;
+}
+
+.intro p {
+    line-height: 1.6;
+}
+
+/* SECTIONS */
+.section {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 60px 20px;
+    align-items: center;
+
+}
+
+.section.alt {
+    background: #f0f0f0;
+}
+
+.section .text,
+.section .image {
+    flex: 1;
+    text-align: left;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.section img {
+    width: 100%;
+    border-radius: 8px;
+}
+
+.section h3 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.odk{
+    margin-top: -7%;
+}
+
+/* FOOTER */
+footer {
+    background: #222;
+    color: white;
+    padding: 30px 20px;
+    text-align: center;
+}
+
+footer p {
+    margin: 10px 0;
+    font-size: 14px;
+}
